@@ -1,0 +1,364 @@
+*body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
+.inter {
+  font-family: "Inter", sans-serif;
+}
+.nav-icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1600px;
+  /* border: 1px solid red; */
+  margin: 0 auto;
+}
+.nav-link {
+  display: flex;
+  gap: 32px;
+  list-style: none;
+  font-family: inter;
+}
+.nav-link a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  font-size: 16px;
+}
+.nav-button {
+  background-color: #469165;
+  font-family: inter;
+  border-radius: 8px;
+  padding: 12.5px 16px;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.nav-button:hover {
+  background-color: #367550;
+}
+#hero-parent {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../B13-A01-Knowledge-Vault/assets/hero-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.hero-container {
+  max-width: 800px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  font-family: inter;
+}
+
+.early-access {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #ffffff;
+  padding: 8px 16px;
+  border-radius: 50px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #469165;
+  font-family: inter;
+}
+
+.circle-indicator {
+  width: 16px;
+  height: 16px;
+  border: 1px solid #ccebd9;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dot {
+  width: 6px;
+  height: 6px;
+  background-color: #469165;
+  border-radius: 50%;
+}
+
+.hero-title {
+  font-family: inter;
+  font-size: 48px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.hero-title span {
+  color: #469165;
+}
+
+.hero-description {
+  color: #cbd5e1;
+  font-size: 16px;
+  line-height: 1.6;
+  max-width: 600px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 16px;
+  margin-top: 10px;
+}
+
+.btn {
+  padding: 14px 24px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: all 0.3s ease;
+}
+
+.btn-primary {
+  background-color: #469165;
+  color: white;
+  border: none;
+}
+.btn-primary:hover {
+  background-color: #3a7a54;
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+.btn-secondary:hover {
+  border-color: white;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.features-section {
+  padding: 80px 20px;
+  background-color: #ffffff;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+}
+
+.features-header h2 {
+  color: #001534;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 16px;
+}
+
+.features-header p {
+  color: #7d8590;
+  font-size: 18px;
+  margin-bottom: 60px;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.feature-card {
+  background: #ffffff;
+  padding: 40px 24px;
+  border-radius: 8px;
+  border: 1px solid #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon-circle {
+  width: 60px;
+  height: 60px;
+  background-color: #ff5555;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.icon-circle img {
+  width: 30px;
+  height: auto;
+}
+
+.feature-card h3 {
+  color: #001534;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  font-family: inter;
+}
+
+.feature-card p {
+  color: #6b7280;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: inter;
+}
+
+.solution-section {
+  padding: 100px 40px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+
+.solution-container {
+  max-width: 1600px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 100px;
+}
+
+.solution-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.solution-image img {
+  max-width: 800px;
+  height: auto;
+}
+
+.solution-content {
+  flex: 1;
+  max-width: 800px;
+}
+
+.solution-label {
+  color: #469165;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: inter;
+  letter-spacing: 1px;
+  display: block;
+  margin-bottom: 16px;
+}
+
+.solution-content h2 {
+  color: #001534;
+  font-size: 48px;
+  font-family: inter;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.solution-description {
+  color: #6b7280;
+  font-size: 18px;
+  font-family: inter;
+  margin-bottom: 40px;
+}
+
+.feature-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  font-family: inter;
+  gap: 20px;
+}
+
+.feature-list li {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-size: 16px;
+  color: #001534;
+  font-family: inter;
+  font-weight: 500;
+}
+
+.feature-list img {
+  width: 28px;
+  height: 28px;
+  flex-shrink: 0;
+}
+
+.main-container {
+  width: 1600px;
+  margin: 0 auto;
+  padding: 100px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  width: 100%;
+  background-color: #f9f9f7;
+  border-radius: 20px;
+  padding: 80px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: inter;
+  text-align: center;
+}
+
+.box h2 {
+  font-family: inter;
+  color: #001534;
+  font-size: 48px;
+  font-weight: 700;
+  margin: 0 0 24px 0;
+}
+
+.text {
+  font-family: inter;
+  color: #6b7280;
+  font-size: 20px;
+  margin: 0 0 40px 0;
+}
+
+.my-btn {
+  background-color: #469165;
+  color: #ffffff;
+  font-family: inter;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  padding: 16px 32px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 24px;
+  transition: 0.3s;
+}
+.my-btn:hover {
+  background-color: #367550;
+  transform: scale(1.05);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.info {
+  color: #9ca3af;
+  font-family: inter;
+  font-size: 16px;
+  margin: 0;
+}
